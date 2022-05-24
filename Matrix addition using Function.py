@@ -1,4 +1,4 @@
-def Matrix_Read(A,m,n):                                                 #
+def Matrix_Read(m,n):                                                   #
     A=[]                                                                #
     print()                                                             #
     for i in range (m):                                                 #
@@ -25,17 +25,15 @@ def Matrix_Add(A,B,m,n):                   #
         S.append(s)                        #
     return S                               #
     
-A=[]                                                    #
 m=int(input("Enter row of matrix A : "))                #
 n=int(input("Enter column of matrix A : "))             #
-A=Matrix_Read(A,m,n)                                    # TO READ THE MATRIX
-B=[]                                                    #
+A=Matrix_Read(m,n)                                      # READ THE MATRIX
 x=int(input("Enter row of matrix B : "))                #
 y=int(input("Enter column of matrix B : "))             #
-B=Matrix_Read(B,x,y)                                    #
+B=Matrix_Read(x,y)                                      #
 
 print("\nMatrix A :")               #
-Matrix_Print(A,m,n)                 # TO DISPLAY THE MATRIX
+Matrix_Print(A,m,n)                 # DISPLAY THE MATRIX
 print("\nMatrix B :")               #
 Matrix_Print(B,x,y)                 #
 
