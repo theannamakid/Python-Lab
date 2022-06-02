@@ -1,0 +1,14 @@
+a=input("Enter the mail id :")
+id=a.split("@")
+print(id)
+list=["gmail.com", "yahoo.com"]
+for k in id :
+    for i in list:
+        if(k==i):
+            print("email is valid")
+            flag=1;
+            break;
+        else:
+                flag=0;
+if (flag==0):
+    print ("Email is invalid")
