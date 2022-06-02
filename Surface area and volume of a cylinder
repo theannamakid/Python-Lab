@@ -1,0 +1,10 @@
+def volume(r,h):
+    vol=3.14*r*r*h
+    print("Volume of cylinder = ",vol)
+def surface(r,h):
+    sur=(2*3.14*r*r)+(3.14*r*h)
+    print("Surface area of cylinder = ",sur)
+r=int(input("Enter radius of the cylinder : "))
+h=int(input("Enter height of the cylinder : "))
+volume(r,h)
+surface(r,h)
