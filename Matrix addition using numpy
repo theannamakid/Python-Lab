@@ -1,0 +1,23 @@
+def Matrix_Read(m,n):
+    A=[]
+    print()
+    for i in range (m):
+        a=[]
+        for j in range (n):
+            a.append(int(input("Enter the value of matrix : ")))
+        A.append(a)
+    print()
+    return A
+
+m=int(input("Enter rows of Matrix A : "))
+n= int(input("Enter column of Matrix A : "))
+A=Matrix_Read(m,n)
+
+x=int(input("Enter rows of Matrix B : "))
+y=int(input("Enter column of Matrix B : "))
+B=Matrix_Read(x,y)
+
+m1=np.array(A)
+m2=np.array(B)
+sum=np.add(m1,m2)
+print("Sum of matrix\n",sum)
