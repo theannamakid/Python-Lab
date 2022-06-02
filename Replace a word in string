@@ -1,0 +1,13 @@
+def replace(words,new):
+    for i in words: 
+        if(i==b):
+            new=new+" "+c
+        else:
+            new=new+" "+i
+    print(new)
+a=(input("enter a sentence : "))
+b=(input("enter word to be replaced : "))
+c=(input("enter word to replace : "))
+words=a.split()
+new=""
+replace(words,new)
