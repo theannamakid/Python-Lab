@@ -1,0 +1,15 @@
+A=()
+a=(int(input("Enter no of elements in tuple : ")))
+for i in range(a):
+        e=(int(input("enter element : ")))
+        A=A+(e,)
+print("\nTuple =",A)
+odd=()
+even=()
+for i in tpl:
+    if(i%2==0):
+        even=even+(i,)
+    else:
+        odd=odd+(i,)
+print("Even tuple =",even)
+print("Odd tuple =",odd)
