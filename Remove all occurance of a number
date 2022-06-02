@@ -1,0 +1,9 @@
+a=int(input("Enter size of the list :"))
+l=[]
+for i in range(0,a):
+    l.append(int(input("enter a number : ")))
+print("list = ",l)
+b=int(input("enter the number to remove : "))
+for i in l:
+    l.remove(b)
+print(l)
